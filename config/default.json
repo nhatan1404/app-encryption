@@ -1,0 +1,19 @@
+{
+  "server": {
+    "port": 4000,
+    "url": "http://localhost:4000",
+    "cors": "http://localhost:3000"
+  },
+  "file": {
+    "static": "public",
+    "path": "public/data",
+    "path-download": "data"
+  },
+  "options": {
+    "enable-cors": true
+  },
+  "rsa": {
+    "minKeySize": 1024,
+    "maxKeySize": 7168
+  }
+}
